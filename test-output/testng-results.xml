@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-08T21:23:39 GMT-08:00" name="Suite" finished-at="2024-12-08T21:24:31 GMT-08:00" duration-ms="52104">
+    <groups>
+    </groups>
+    <test started-at="2024-12-08T21:23:39 GMT-08:00" name="Test" finished-at="2024-12-08T21:24:31 GMT-08:00" duration-ms="52104">
+      <class name="testClass.TC_002_SearchElement_Testing">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testClass.TC_002_SearchElement_Testing@5460cf3a]" started-at="2024-12-08T21:23:52 GMT-08:00" name="setUp" finished-at="2024-12-08T21:23:54 GMT-08:00" duration-ms="2405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[window]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Testing_SearchElement()[pri:0, instance:testClass.TC_002_SearchElement_Testing@5460cf3a]" started-at="2024-12-08T21:23:54 GMT-08:00" name="Testing_SearchElement" finished-at="2024-12-08T21:24:31 GMT-08:00" duration-ms="36876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing_SearchElement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClass.TC_002_SearchElement_Testing@5460cf3a]" started-at="2024-12-08T21:24:31 GMT-08:00" name="tearDown" finished-at="2024-12-08T21:24:31 GMT-08:00" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClass.TC_002_SearchElement_Testing -->
+      <class name="testClass.TC_001_CreateAccountTesting">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testClass.TC_001_CreateAccountTesting@52c3cb31]" started-at="2024-12-08T21:23:40 GMT-08:00" name="setUp" finished-at="2024-12-08T21:23:48 GMT-08:00" duration-ms="7998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[window]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestingCreateAcc()[pri:0, instance:testClass.TC_001_CreateAccountTesting@52c3cb31]" started-at="2024-12-08T21:23:48 GMT-08:00" name="TestingCreateAcc" finished-at="2024-12-08T21:23:52 GMT-08:00" duration-ms="4187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestingCreateAcc -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClass.TC_001_CreateAccountTesting@52c3cb31]" started-at="2024-12-08T21:23:52 GMT-08:00" name="tearDown" finished-at="2024-12-08T21:23:52 GMT-08:00" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClass.TC_001_CreateAccountTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

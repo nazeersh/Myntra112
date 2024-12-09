@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testClass.TC_002_SearchElement_Testing">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Testing_SearchElement"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testClass.TC_002_SearchElement_Testing -->
+      <class name="testClass.TC_001_CreateAccountTesting">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TestingCreateAcc"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testClass.TC_001_CreateAccountTesting -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
